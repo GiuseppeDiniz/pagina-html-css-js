@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio da IA v0</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">IA v0</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Bem-vindo ao Portfolio da IA v0</h1>
+            <div class="cta-buttons">
+                <a href="#sobre" class="btn">Saiba mais</a>
+                <a href="#projetos" class="btn">Ver Projetos</a>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre a IA v0</h2>
+            <p>A IA v0 é uma inteligência artificial avançada, desenvolvida para criar soluções inovadoras em diversas áreas tecnológicas.</p>
+            <div class="icons">
+                <div class="icon"><i class="fas fa-brain"></i></div>
+                <div class="icon"><i class="fas fa-cogs"></i></div>
+                <div class="icon"><i class="fas fa-robot"></i></div>
+            </div>
+        </section>
+
+        <section id="tecnologias">
+            <h2>Tecnologias</h2>
+            <div class="tech-list">
+                <div class="tech-item">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-brain"></i>
+                    <h3>Machine Learning</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-code"></i>
+                    <h3>TensorFlow</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="project-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="nlp">NLP</button>
+                <button class="filter-btn" data-filter="vision">Visão Computacional</button>
+                <button class="filter-btn" data-filter="data">Análise de Dados</button>
+            </div>
+            <div class="project-grid">
+                <div class="project-card" data-category="nlp">
+                    <img src="https://via.placeholder.com/300x200" alt="Projeto 1">
+                    <h3>Chatbot Avançado</h3>
+                    <p>Um chatbot inteligente capaz de entender e responder a perguntas complexas.</p>
+                </div>
+                <div class="project-card" data-category="vision">
+                    <img src="https://via.placeholder.com/300x200" alt="Projeto 2">
+                    <h3>Reconhecimento Facial</h3>
+                    <p>Sistema de reconhecimento facial de alta precisão para segurança.</p>
+                </div>
+                <div class="project-card" data-category="data">
+                    <img src="https://via.placeholder.com/300x200" alt="Projeto 3">
+                    <h3>Previsão de Mercado</h3>
+                    <p>Análise preditiva de tendências de mercado usando big data.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu E-mail" required>
+                <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 IA v0. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
